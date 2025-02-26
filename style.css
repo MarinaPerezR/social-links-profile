@@ -1,7 +1,61 @@
 body {
     background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
 }
 
 .container {
     background-color: hsl(0, 0%, 12%);
+    min-height: auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+h1, p {
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 80%;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    margin-top: 30px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    color: hsl(75, 94%, 57%);
 }
